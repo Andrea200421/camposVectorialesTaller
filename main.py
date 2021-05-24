@@ -36,7 +36,7 @@ def punto2():
     Y= np.linspace(0,1,10)
     X,Y = np.meshgrid(X,Y)
     Z = X*np.exp(Y)
-    ax.plot_surface(X,Y,Z)
+    ax.plot_surface(X,Y,Z) #Grafica la superficie 
 
     ax.quiver(x, y, z, u, v, w, length=0.005, color='green')  # Genera el campo vectorial en en espacio
 
